@@ -1,7 +1,12 @@
 .header{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: url("../img/header-bg.png") top right;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
     &__info{
         max-width: 670px;
-        margin-top: 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -35,6 +40,7 @@
         text-align: center;
         margin-top: 6px;
     }
+
     &__title{
         max-width: 802px;
         font-weight: 700;
@@ -51,6 +57,7 @@
         line-height: 155%;
         color: $text-color;
     }
+
     &__advantages{
         margin-top: 40px;
         max-width: 500px;
@@ -90,5 +97,44 @@
         width: 22px;
         height: 22px;
         background-image: url("../img/header-icon-4.svg");
+    }
+
+    &__vacation{
+        margin-top: 85px;
+        max-width: 427px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-text{
+            font-size: 14px;
+            line-height: 155%;
+            text-align: center;
+        }
+        &-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            height: 75px;
+            max-width: 427px;
+            background-color: #41B619;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 18px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        &-info{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__arrow{
+        width: 50px;
+        height: 50px;
+        background-image: url("../img/header-arrow.svg");
+        background-repeat: no-repeat;
+        margin-left: 5px;
+        transform: translateY(10px);
     }
 }
