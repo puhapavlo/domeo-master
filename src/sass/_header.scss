@@ -52,11 +52,43 @@
         color: $text-color;
     }
     &__advantages{
+        margin-top: 40px;
         max-width: 500px;
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
     &__item{
-        max-width: 245px;
+        min-width: 174px;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 155%;
+        color: $text-color;
+    }
+    &__point{
+        display: flex;
+        align-items: center;
+    }
+    &__icon-1{
+        width: 22px;
+        height: 22px;
+        background-image: url("../img/header-icon-1.svg");
+    }
+    &__icon-2{
+        width: 22px;
+        height: 22px;
+        background-image: url("../img/header-icon-2.svg");
+    }
+    &__icon-3{
+        width: 22px;
+        height: 22px;
+        background-image: url("../img/header-icon-3.svg");
+    }
+    &__icon-4{
+        width: 22px;
+        height: 22px;
+        background-image: url("../img/header-icon-4.svg");
     }
 }
