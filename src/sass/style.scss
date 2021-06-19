@@ -1,2 +1,7 @@
 @import "normalize.scss";
-@import "variables.scss"
+*{
+    font-family: "Noto Sans";
+}
+@import "variables.scss";
+@import "container.scss";
+@import "header.scss";

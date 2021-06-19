@@ -1,0 +1,62 @@
+.header{
+    &__info{
+        max-width: 670px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__tel-block{
+        display: flex;
+        flex-direction: column;
+    }
+    &__company{
+        display: flex;
+        flex-direction: row;
+    }
+    &__logo{
+        margin-right: 30px;
+    }
+    &__descr-company{
+        font-size: 14px;
+        line-height: 155%;
+        color: $text-color;
+    }
+    &__tel{
+        font-weight: 600;
+        font-size: 20px;
+        color: $text-color;
+        text-decoration: none;
+    }
+    &__tel-order{
+        font-size: 14px;
+        text-decoration-line: underline;
+        color: $text-color;
+        text-align: center;
+        margin-top: 6px;
+    }
+    &__title{
+        max-width: 802px;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 120%;
+        color: $text-color;
+    }
+    &__subtitle{
+        color: $bc;
+    }
+    &__descr{
+        max-width: 500px;
+        font-size: 20px;
+        line-height: 155%;
+        color: $text-color;
+    }
+    &__advantages{
+        max-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item{
+        max-width: 245px;
+    }
+}
