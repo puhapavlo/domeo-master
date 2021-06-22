@@ -1,0 +1,89 @@
+.lie{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: radial-gradient(48.93% 48.93% at 50% 100%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FAFAFA;
+    &__title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 120%;
+        text-align: center;
+        color: $text-color;
+    }
+    &__descr{
+        font-size: 20px;
+        text-align: center;
+        color: $text-color;
+    }
+    &__link{
+        display: block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 155%;
+        color: $bc;
+        text-decoration: none;
+        background: url("../img/time.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 40px;
+        margin-top: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__video{
+        margin-top: 25px;
+    }
+    &__info{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text{
+        font-size: 20px;
+        line-height: 155%;
+        color: #000000;
+    }
+    &__connect{
+        height: 70px;
+        border: 1px solid #FFDB48;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        &-title{
+            display: inline-block;
+            font-weight: 600;
+            font-size: 20px;
+            color: #000000;
+            margin: 0;
+            transform: translateY(-65px);
+            background-color: #FAFAFA;
+            position: relative;
+            right: -600px;
+        }
+        &-block{
+            display: flex;
+            align-items: center;
+        }
+        &-text{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 155%;
+            text-align: center;
+        }
+        &-btn{
+            padding: 25px 78px;
+            background: #41B619;
+            border-radius: 100px;
+            border: none;
+            font-weight: 600;
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-left: 18px;
+        }
+        
+    }
+    &__doc{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 85px;
+    }
+}
