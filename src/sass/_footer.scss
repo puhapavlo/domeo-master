@@ -1,0 +1,12 @@
+.footer{
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background: #DEDEDE;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__tel-block{
+        justify-content: end;
+    }
+}

@@ -75,6 +75,10 @@
             font-size: 18px;
             color: #FFFFFF;
             cursor: pointer;
+            &:hover{
+                background: #269001;
+                transition: 0.7s;
+            }
         }
         &-block{
             margin-top: 30px;

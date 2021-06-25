@@ -78,6 +78,11 @@
             font-size: 18px;
             color: #FFFFFF;
             margin-left: 18px;
+            cursor: pointer;
+            &:hover{
+                background: #269001;
+                transition: 0.7s;
+            }
         }
         
     }

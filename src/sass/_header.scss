@@ -124,6 +124,10 @@
             font-size: 18px;
             color: #FFFFFF;
             text-decoration: none;
+            &:hover{
+                background: #269001;
+                transition: 0.7s;
+            }
         }
         &-info{
             display: flex;

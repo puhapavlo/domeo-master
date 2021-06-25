@@ -69,5 +69,46 @@
         font-size: 18px;
         color: #fff;
         cursor: pointer;
+        &:hover{
+            background: #269001;
+            transition: 0.7s;
+        }
+    }
+    &__input{
+        position: absolute;
+        left: -9999px;
+    }
+    &__input + &__label{
+        display: inline-block;
+        position: relative;
+        padding-left: 28px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+    &__input + &__label::before{
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: -3px;
+        width: 24px;
+        height: 24px;
+        border: 2px solid #DEDEDE;
+    }
+    &__input + &__label::before{
+        border-radius: 100%;
+    }
+    &__input:hover + &__label::before{
+        content: '';
+        width: 24px;
+        height: 24px;
+        border: 2px solid #FFDB48;
+        transition: all 0.2s ease;
+    }
+    &__input:checked + &__label::before{
+        content: '';
+        width: 14px;
+        height: 14px;
+        border: 10px solid #FFDB48;
+        transition: all 0.2s ease;
     }
 }
