@@ -147,7 +147,7 @@
 .modal {
         position: fixed;
         visibility: hidden;
-        top: 0;
+        top: -1000px;
         right: 0;
         bottom: 0;
         left: 0;
@@ -166,8 +166,8 @@
       }
       .modal_active {
         position: fixed;
-        top: 0;
+        top: -200px;
         visibility: visible;
         opacity: 1;
-        transition: .3s;
+        transition: all 0.9s ease;
       }
