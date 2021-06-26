@@ -1,0 +1,437 @@
+@media(max-width: 1200px) {
+    .modal_active{
+        top: -100px;
+    }
+}
+
+@media(max-width: 1125px) {
+    .header{
+        padding-left: 30px;
+    }
+    .lie__doc{
+        justify-content: center;
+    }
+    .lie__img{
+        margin-top: 30px;
+    }
+    .lie__connect-title{
+        right: 0;
+    }
+    .lie__connect-btn{
+        padding: 20px 60px;
+    }
+    .lie__info{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .conditions__list{
+        justify-content: center;
+    }
+    .footer{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .salary__btn{
+        bottom: 20px;
+    }
+    .interview{
+        &__blocks{
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__warning{
+            margin: 0 auto;
+            border-radius: 0px 0px 10px 10px;
+            width: 500px;
+            transform: translateY(773px);
+            font-size: 16px;
+            transform: translateY(754px);
+        }
+        &__form{
+            margin: 0 auto;
+            order: 1;
+            height: auto;
+        }
+        &__questions{
+            height: 530px;
+        }
+
+    }
+    .steps{
+        &__inputs{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__info{
+            margin: 0 auto;
+            &:not(:first-child){
+                margin-top: 30px;
+            }
+        }
+        &__form-block{
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__items{
+            justify-content: center;
+        }
+        &__item{
+            margin: 0px 10px 80px 10px;
+        }
+    }
+    .conditions{
+        &__warning{
+            width: 100%;
+            max-height: 320px;
+            padding-top: 110px;
+            z-index: 2;
+            top: -30px;
+            background-position: 50% 30px;
+        }
+    }
+    .vacation{
+        &__form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__info{
+            margin: 0 auto;
+            &:not(:first-child){
+                margin-top: 30px;
+            }
+        }
+        &__form-block{
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__items{
+            justify-content: center;
+        }
+        &__item{
+            margin: 0px 10px 80px 10px;
+        }
+    }
+    .modal_active{
+        top: -180px;
+    }
+    .interview__form .vertical-label{
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 860px) {
+    .lie{
+        &__connect{
+            height: auto;
+        }
+        &__connect-block{
+            flex-direction: column-reverse;
+        }
+        &__connect-title{
+            text-align: center;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -65px);
+            width: 230px;
+        }
+        &__connect-text{
+            margin-top: 30px;
+        }
+        &__img{
+            width: 100%;
+        }
+    }
+}
+
+@media( max-width: 768px) {
+    .header{
+        background: url('../img/header-bg-mob.jpg') no-repeat;
+        background-position: 100% 420px;
+        padding-right: 30px;
+        &__info{
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__company{
+            flex-direction: column;
+        }
+        &__logo{
+            width: 70px;
+            height: 40px;
+            margin: 0 auto;
+            margin-bottom: 13px;
+        }
+        &__tel-block{
+            margin-top: 10px;
+        }
+        .header__tel-order{
+            display: none;
+        }
+        &__descr-company{
+            text-align: center;
+        }
+        &__title{
+            text-align: center;
+        }
+        &__descr{
+            text-align: center;
+            max-width: 100%;
+        }
+        &__vacation{
+            max-width: none;
+            &-text{
+                text-align: center;
+            }
+            &-btn{
+                margin: 0 auto;
+                margin-top: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+        &__arrow{
+            display: none;
+        }
+    }
+    .conditions__warning{
+        height: 100%;
+    }
+    .salary{
+        &__form{
+            height: 610px;
+        }
+        &__btn{
+            display: block;
+            position: static;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+    .job{
+        &__warning{
+            display: block;
+            height: 150px;
+            text-align: center;
+            padding-top: 150px;
+            background-position: 50% 60px;
+        }
+    }
+    .footer{
+        &__container{
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__tel-block{
+            justify-content: center;
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+}
+@media(max-width: 576px) {
+    .header{
+        &__title{
+            font-size: 26px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+        &__vacation-btn{
+            font-size: 14px;
+        }
+    }
+    .search-job{
+        &__title{
+            font-size: 26px;
+        }
+        &__text{
+            font-size: 16px;
+        }
+    }
+    .vacation{
+        &__title{
+            font-size: 24px;
+            text-align: center;
+        }
+        &__job{
+            font-size: 16px;
+            line-height: 250%;
+        }
+    }
+    .conditions{
+        &__title{
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+        &__text{
+            font-size: 16px;
+        }
+        &__warning{
+            font-size: 16px;
+        }
+    }
+    .vacation{
+        &__job{
+            max-width: 111px;
+        }
+        &__list{
+            justify-content: center;
+        }
+        &__form-btn{
+            width: 100%;
+        }
+        &__warning-text{
+            font-size: 16px;
+        }
+        &__form-title{
+            font-size: 24px;
+        }
+        &__form-subtitle{
+            font-size: 16px;
+        }
+        &__name-label, &__tel-label{
+            font-size: 16px;
+        }
+        &__form-btn{
+            font-size: 14px;
+        }
+        &__form-text{
+            font-size: 12px;
+        }
+    }
+    .salary{
+        &__title{
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+        &__form{
+            height: 100%;
+            &-title{
+                font-size: 24px;
+            }
+            &-descr{
+                font-size: 16px;
+            }
+        }
+        &__label{
+            font-size: 16px;
+        }
+        &__items{
+            justify-content: center;
+        }
+        &__btn{
+            font-size: 14px;
+        }
+    }
+    .steps{
+        &__title{
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+        &__item-title{
+            font-size: 16px;
+        }
+    }
+    .interview{
+        &__form{
+            width: 100%;
+        }
+        &__warning{
+            width: 100%;
+        }
+    }
+    .job{
+        &__title{
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+        &__transform{
+            display: none;
+        }
+        &__items{
+            flex-direction: column;
+        }
+        &__item{
+            flex-direction: column;
+            width: auto;
+        }
+        &__img{
+            position: static;
+        }
+        &__text{
+            font-size: 16px;
+            justify-content: center;
+        }
+        &__warning{
+            font-size: 16px;
+        }
+    }
+    .interview{
+        &__title{
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+        &__list-title{
+            font-size: 16px;
+        }
+        &__item{
+            font-size: 16px;
+        }
+        &__form{
+            .vertical-input{
+                width: 100%;
+            }
+        }
+    }
+    .lie{
+        &__title{
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+        &__link{
+            font-size: 16px;
+        }
+        &__text{
+            font-size: 16px;
+        }
+        &__connect{
+            padding-left: 0;
+            &-title{
+                font-size: 16px;
+            }
+            &-btn{
+                font-size: 14px;
+            }
+            &-text{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media(max-width: 365px) {
+    .header{
+        &__vacation{
+            &-btn{
+                max-width: 100%;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align: center;
+            }
+        }
+    }
+}

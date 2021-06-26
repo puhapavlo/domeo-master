@@ -3,6 +3,7 @@
     padding-bottom: 90px;
     background: radial-gradient(48.93% 48.93% at 50% 100%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FAFAFA;
     &__title{
+        min-width: 300px;
         font-weight: 700;
         font-size: 36px;
         line-height: 120%;
@@ -90,5 +91,6 @@
         display: flex;
         justify-content: space-between;
         margin-top: 85px;
+        flex-wrap: wrap;
     }
 }
