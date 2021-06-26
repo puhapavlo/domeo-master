@@ -142,4 +142,32 @@
         margin-left: 5px;
         transform: translateY(10px);
     }
+    
 }
+.modal {
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        overflow-y: scroll;
+        padding: 60px 15px;
+      }
+       
+      .modal__content {
+        min-height: 720px;
+        position: relative;
+      }
+      .modal_active {
+        position: fixed;
+        top: 0;
+        visibility: visible;
+        opacity: 1;
+        transition: .3s;
+      }
